@@ -1,7 +1,9 @@
 [
   {
-    "name" :"store",
-    "repos" :[
+    "name": "store",
+    "alpha": "http://store.wuilt.ws/",
+    "production": "",
+    "repos": [
       {
         "name": "wuilt-services",
         "url": "https://github.com/wuilt/wuilt-services"
@@ -11,9 +13,12 @@
         "url": "https://github.com/wuilt/wuilt-client"
       }
     ]
-  },  {
-    "name" :"Builder",
-    "repos" :[
+  },
+  {
+    "name": "Builder",
+    "alpha": "https://alpha.wuilt.ws/",
+    "production": "https://app.wuilt.com/",
+    "repos": [
       {
         "name": "wuilt-api",
         "url": "https://github.com/wuilt/wuilt-api"
@@ -23,9 +28,12 @@
         "url": "https://github.com/wuilt/wuilt-frontend"
       }
     ]
-  },{
-    "name" :"BackOffice",
-    "repos" :[
+  },
+  {
+    "name": "BackOffice",
+    "alpha": "",
+    "production": "http://backoffice.wuilt.ws.s3-website-us-east-1.amazonaws.com/clients/page/1",
+    "repos": [
       {
         "name": "backoffice-api",
         "url": "https://github.com/wuilt/backoffice-api"
@@ -36,5 +44,4 @@
       }
     ]
   }
-  
 ]
