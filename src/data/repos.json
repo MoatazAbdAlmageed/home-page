@@ -1,0 +1,40 @@
+[
+  {
+    "name" :"store",
+    "repos" :[
+      {
+        "name": "wuilt-services",
+        "url": "https://github.com/wuilt/wuilt-services"
+      },
+      {
+        "name": "wuilt-client",
+        "url": "https://github.com/wuilt/wuilt-client"
+      }
+    ]
+  },  {
+    "name" :"Builder",
+    "repos" :[
+      {
+        "name": "wuilt-api",
+        "url": "https://github.com/wuilt/wuilt-api"
+      },
+      {
+        "name": "wuilt-frontend",
+        "url": "https://github.com/wuilt/wuilt-frontend"
+      }
+    ]
+  },{
+    "name" :"BackOffice",
+    "repos" :[
+      {
+        "name": "backoffice-api",
+        "url": "https://github.com/wuilt/backoffice-api"
+      },
+      {
+        "name": "backoffice-front",
+        "url": "https://github.com/wuilt/backoffice-front"
+      }
+    ]
+  }
+  
+]
