@@ -2,14 +2,9 @@ import React from "react";
 import "./Repos.css";
 import reposData from "../data/repos.json";
 function Repos() {
-  console.log("\n");
-  console.log("************ repos **************");
-  console.log(reposData);
-
   return (
     <div id="Repos">
-      <h1>Repos</h1>
-
+      <h1>Wuilt Projects</h1>
       <ul class="cards">
         {reposData.map((project) => {
           return (
