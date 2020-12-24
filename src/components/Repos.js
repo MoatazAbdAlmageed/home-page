@@ -15,12 +15,12 @@ function Repos() {
                     <div class="card__title">{project.name}</div>
                     {project.alpha && (
                       <a target="_blank" href={`${project.alpha}`}>
-                        alpha
+                        🔗 alpha
                       </a>
                     )}{" "}
                     {project.production && (
                       <a target="_blank" href={`${project.production}`}>
-                        production
+                        🌐 production
                       </a>
                     )}
                     <p class="card__text">
@@ -29,23 +29,14 @@ function Repos() {
                           <>
                             <h2>{repo.name}</h2>
                             <a target="_blank" href={`${repo.url}/commits/`}>
-                              commits
+                              📃 Commits
                             </a>{" "}
                             <a target="_blank" href={`${repo.url}/issues`}>
-                              issues
+                              🐛 Issues
                             </a>{" "}
                             <a target="_blank" href={`${repo.url}/issues/new`}>
-                              new
+                              🖊️ New
                             </a>{" "}
-                            <a target="_blank" href={`${repo.url}/pulls/`}>
-                              pulls
-                            </a>{" "}
-                            <a target="_blank" href={`${repo.url}/wiki/`}>
-                              wiki
-                            </a>{" "}
-                            <a target="_blank" href={`${repo.url}/pulse/`}>
-                              pulse
-                            </a>
                           </>
                         );
                       })}

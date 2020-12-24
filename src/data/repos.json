@@ -11,6 +11,10 @@
       {
         "name": "wuilt-client",
         "url": "https://github.com/wuilt/wuilt-client"
+      },
+      {
+        "name": "wuilt-store-front",
+        "url": "https://github.com/wuilt/wuilt-store-front"
       }
     ]
   },

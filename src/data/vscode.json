@@ -1,0 +1,30 @@
+[
+  {
+    "action": "Search Text Through All Files At Once",
+    "shortcut": "Ctrl + Shift + F"
+  },
+  {
+    "action": "Deleting a Line",
+    "shortcut": "Ctrl + Shift + K"
+  },
+  {
+    "action": "Add Cursor Above/Below",
+    "shortcut": "Ctrl + Alt + Up Arrow"
+  },
+  {
+    "action": "Re-open a Closed Editor",
+    "shortcut": "Ctrl + Shift + T"
+  },
+  {
+    "action": "Delete Previous Word",
+    "shortcut": "Ctrl + Backspace"
+  },
+  {
+    "action": "Duplicate Line",
+    "shortcut": "ALT + Shift + Up(Down) Arrow"
+  },
+  {
+    "action": "Move Line Up/Down",
+    "shortcut": "Alt + Up(Down) Arrow"
+  }
+]
