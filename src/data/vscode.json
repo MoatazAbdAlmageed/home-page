@@ -1,5 +1,34 @@
 [
   {
+    "action": "Open Settings",
+    "shortcut": "Ctrl+,"
+  },
+  {
+    "action": "Toggle Line Comment",
+    "shortcut": "Ctrl+/"
+  },
+  {
+    "action": "Toggle Block Comment",
+    "shortcut": "Shift+Alt+A"
+  },
+  {
+    "action": "Quick file navigation",
+    "shortcut": "Ctrl+P"
+  },
+  {
+    "action": "Command Palette",
+    "shortcut": "Ctrl+Shift+P"
+  },
+  {
+    "action": "selects the word at the cursor, or the next occurrence of the current selection",
+    "shortcut": "Ctrl+D"
+  },
+
+  {
+    "action": "add a selection at each occurrence of the current selected text",
+    "shortcut": "Ctrl+Shift+L"
+  },
+  {
     "action": "Search Text Through All Files At Once",
     "shortcut": "Ctrl + Shift + F"
   },

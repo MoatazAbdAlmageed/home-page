@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 import "./Repos.css";
 import reposData from "../data/repos.json";
 function Repos() {
@@ -9,10 +10,10 @@ function Repos() {
         {reposData.map((project) => {
           return (
             <>
-              <li class="cards__item">
-                <div class="card">
-                  <div class="card__content">
-                    <div class="card__title">{project.name}</div>
+              <Card>
+                <Card.Body>
+                  <Card.Title>{project.name}</Card.Title>
+                  <Card.Text>
                     {project.alpha && (
                       <a target="_blank" href={`${project.alpha}`}>
                         🔗 alpha
@@ -27,7 +28,7 @@ function Repos() {
                       {project.repos.map((repo) => {
                         return (
                           <>
-                            <h2>{repo.name}</h2>
+                            <h4>{repo.name}</h4>
                             <a target="_blank" href={`${repo.url}/commits/`}>
                               📃 Commits
                             </a>{" "}
@@ -37,13 +38,14 @@ function Repos() {
                             <a target="_blank" href={`${repo.url}/issues/new`}>
                               🖊️ New
                             </a>{" "}
+                            <hr />
                           </>
                         );
                       })}
                     </p>
-                  </div>
-                </div>
-              </li>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
             </>
           );
         })}

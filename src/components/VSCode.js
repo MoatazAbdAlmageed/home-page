@@ -5,7 +5,7 @@ import reactSnippets from "../data/react-js-snippets.json";
 export default function VSCode() {
   return (
     <div>
-      <h1>Vscode Shortcuts</h1>
+      <h1>Vscode most used shortcuts</h1>
       <Table striped bordered hover>
         <thead>
           <th>Action</th>
@@ -22,7 +22,7 @@ export default function VSCode() {
           })}
         </tbody>
       </Table>
-      <h1>Vscode Snippets</h1>
+      <h1>React Snippets</h1>
       <Table striped bordered hover>
         <thead>
           <tr>

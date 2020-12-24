@@ -4,11 +4,14 @@ import Repos from "./components/Repos";
 import VSCode from "./components/VSCode";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Repos />
-    <VSCode />
+    <Container>
+      <Repos />
+      <VSCode />
+    </Container>
   </React.StrictMode>,
   document.getElementById("root")
 );
