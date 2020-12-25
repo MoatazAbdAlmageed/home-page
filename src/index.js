@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Repos from "./components/Repos";
-import VSCode from "./components/VSCode";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
+import Repos from "./components/Repos";
+import VSCode from "./components/VSCode";
+import Learning from "./components/Learning";
+import Packages from "./components/Packages";
 
 ReactDOM.render(
   <React.StrictMode>
     <Container>
       <Repos />
+      <Packages />
+      <Learning />
       <VSCode />
     </Container>
   </React.StrictMode>,

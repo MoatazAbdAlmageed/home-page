@@ -1,0 +1,307 @@
+[
+  {
+    "name": "connect-rid",
+    "url": "https://github.com/expressjs/connect-rid",
+    "type": "expressjs"
+  },
+  {
+    "name": "method-override",
+    "url": "https://github.com/expressjs/method-override",
+    "type": "expressjs"
+  },
+  {
+    "name": "response-time",
+    "url": "https://github.com/expressjs/response-time",
+    "type": "expressjs"
+  },
+  {
+    "name": "api-error-handler",
+    "url": "https://github.com/expressjs/api-error-handler",
+    "type": "expressjs"
+  },
+  {
+    "name": "errorhandler",
+    "url": "https://github.com/expressjs/errorhandler",
+    "type": "expressjs"
+  },
+  {
+    "name": "serve-static",
+    "url": "https://github.com/expressjs/serve-static",
+    "type": "expressjs"
+  },
+  {
+    "name": "flash",
+    "url": "https://github.com/expressjs/flash",
+    "type": "expressjs"
+  },
+  {
+    "name": "cors",
+    "url": "https://github.com/expressjs/cors",
+    "type": "expressjs"
+  },
+  {
+    "name": "cookie-session",
+    "url": "https://github.com/expressjs/cookie-session",
+    "type": "expressjs"
+  },
+  {
+    "name": "multer",
+    "url": "https://github.com/expressjs/multer",
+    "type": "expressjs"
+  },
+  {
+    "name": "generator",
+    "url": "https://github.com/expressjs/generator",
+    "type": "expressjs"
+  },
+  {
+    "name": "session",
+    "url": "https://github.com/expressjs/session",
+    "type": "expressjs"
+  },
+  {
+    "name": "cookie-parser",
+    "url": "https://github.com/expressjs/cookie-parser",
+    "type": "expressjs"
+  },
+  {
+    "name": "compression",
+    "url": "https://github.com/expressjs/compression",
+    "type": "expressjs"
+  },
+  {
+    "name": "vhost",
+    "url": "https://github.com/expressjs/vhost",
+    "type": "expressjs"
+  },
+  {
+    "name": "serve-favicon",
+    "url": "https://github.com/expressjs/serve-favicon",
+    "type": "expressjs"
+  },
+  {
+    "name": "timeout",
+    "url": "https://github.com/expressjs/timeout",
+    "type": "expressjs"
+  },
+  {
+    "name": "body-parser",
+    "url": "https://github.com/expressjs/body-parser",
+    "type": "expressjs"
+  },
+  {
+    "name": "morgan",
+    "url": "https://github.com/expressjs/morgan",
+    "type": "expressjs"
+  },
+  {
+    "name": "lodash",
+    "url": "https://lodash.com/",
+    "type": "js"
+  },
+  {
+    "name": "react-window",
+    "url": "https://github.com/bvaughn/react-window",
+    "type": "react"
+  },
+  {
+    "name": "react-virtualized",
+    "url": "https://github.com/bvaughn/react-virtualized",
+    "type": "react"
+  },
+  {
+    "name": "react-select",
+    "url": "https://react-select.com/",
+    "type": "react"
+  },
+  {
+    "name": "React Hook Form",
+    "url": "https://react-hook-form.com/",
+    "type": "react"
+  },
+  {
+    "name": "React Bootstrap",
+    "url": "https://react-bootstrap.github.io/",
+    "type": "react"
+  },
+  {
+    "name": "formik",
+    "url": "https://formik.org/",
+    "type": "react"
+  },
+  {
+    "name": "jest",
+    "url": "https://facebook.github.io/jest/",
+    "type": "Testing Framework"
+  },
+  {
+    "name": "mochajs",
+    "url": "https://mochajs.org/",
+    "type": "Testing Framework"
+  },
+  {
+    "name": "knexjs",
+    "url": "http://knexjs.org/",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "sequelizejs",
+    "url": "http://docs.sequelizejs.com/",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "browserify",
+    "url": "http://browserify.org/",
+    "type": "Bundler"
+  },
+  {
+    "name": "webpack",
+    "url": "https://webpack.js.org/",
+    "type": "Bundler"
+  },
+  {
+    "name": "eslint",
+    "url": "https://eslint.org/",
+    "type": "Linter and Formatter"
+  },
+  {
+    "name": "prettier",
+    "url": "https://prettier.io/",
+    "type": "Linter and Formatter"
+  },
+  {
+    "name": "babeljs",
+    "url": "https://babeljs.io/",
+    "type": "Transpiler"
+  },
+  {
+    "name": "request",
+    "url": "https://github.com/request/request",
+    "type": "HTTP Request Library"
+  },
+  {
+    "name": "axios",
+    "url": "https://github.com/axios/axios",
+    "type": "HTTP Request Library"
+  },
+  {
+    "name": "Bunyan",
+    "url": "https://github.com/trentm/node-bunyan",
+    "type": "Logging Utility"
+  },
+  {
+    "name": "winston",
+    "url": "https://github.com/winstonjs/winston",
+    "type": "Logging Utility"
+  },
+  {
+    "name": "expressjs",
+    "url": "https://expressjs.com/",
+    "type": "Backend Framework"
+  },
+  {
+    "name": "restify",
+    "url": "http://restify.com/",
+    "type": "Backend Framework"
+  },
+  {
+    "name": "koajs",
+    "url": "http://koajs.com/",
+    "type": "Backend Framework"
+  },
+  {
+    "name": "typescriptlang",
+    "url": "https://www.typescriptlang.org/",
+    "type": "Javascript Flavor"
+  },
+  {
+    "name": "flow",
+    "url": "https://flow.org/",
+    "type": "Javascript Flavor"
+  },
+  {
+    "name": "vuejs",
+    "url": "vuejs",
+    "type": "Frontend Framework"
+  },
+  {
+    "name": "angular",
+    "url": "https://angular.io/",
+    "type": "Frontend Framework"
+  },
+  {
+    "name": "reactjs",
+    "url": "https://reactjs.org/",
+    "type": "Frontend Framework"
+  },
+  {
+    "name": "belle",
+    "url": "https://nikgraf.github.io/belle/",
+    "type": "react"
+  },
+  {
+    "name": "reactdesktop",
+    "url": "http://reactdesktop.js.org/",
+    "type": "react"
+  },
+  {
+    "name": "Argon Design System React",
+    "url": "https://www.codeinwp.com/go/creative-tim-argon-design-system-react/",
+    "type": "react"
+  },
+  {
+    "name": "reactvirtualized",
+    "url": "http://www.reactvirtualized.com/",
+    "type": "react"
+  },
+  {
+    "name": "shards-react/",
+    "url": "https://designrevision.com/downloads/shards-react/",
+    "type": "react"
+  },
+  {
+    "name": "react-admin/",
+    "url": "https://marmelab.com/react-admin/",
+    "type": "react"
+  },
+  {
+    "name": "elemental",
+    "url": "https://github.com/elementalui/elemental",
+    "type": "react"
+  },
+  {
+    "name": "grommet",
+    "url": "https://github.com/grommet/grommet",
+    "type": "react"
+  },
+  {
+    "name": "evergreen",
+    "url": "https://github.com/segmentio/evergreen",
+    "type": "react"
+  },
+  {
+    "name": "Onsen UI",
+    "url": "https://github.com/react-toolbox/react-toolbox",
+    "type": "react"
+  },
+  {
+    "name": "react-bootstrap",
+    "url": "https://github.com/react-bootstrap/react-bootstrap",
+    "type": "react"
+  },
+  {
+    "name": "blueprint",
+    "url": "https://github.com/palantir/blueprint",
+    "type": "react"
+  },
+  {
+    "name": "ant-design",
+    "url": "https://github.com/ant-design/ant-design",
+    "type": "react"
+  },
+  {
+    "name": "material-ui",
+    "url": "https://github.com/mui-org/material-ui",
+    "type": "react"
+  }
+]

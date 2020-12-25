@@ -1,7 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import VSCodeShortcuts from "../data/vscode.json";
-import reactSnippets from "../data/react-js-snippets.json";
 export default function VSCode() {
   return (
     <div>
