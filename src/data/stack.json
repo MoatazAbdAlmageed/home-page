@@ -1,28 +1,38 @@
 [
   {
+    "name": "npmjs",
+    "url": "https://www.npmjs.com/",
+    "type": "packages"
+  },
+  {
+    "name": "openbase",
+    "url": "https://openbase.io/",
+    "type": "packages"
+  },
+  {
     "name": "elastic",
     "url": "https://www.elastic.co/",
-    "type": "nosqlDB"
+    "type": "NoSQL"
   },
   {
     "name": "Amazon DynamoDB",
     "url": "https://aws.amazon.com/dynamodb/",
-    "type": "nosqlDB"
+    "type": "NoSQL"
   },
   {
     "name": "hbase",
     "url": "https://hbase.apache.org/",
-    "type": "nosqlDB"
+    "type": "NoSQL"
   },
   {
     "name": "mongodb",
     "url": "https://www.mongodb.com/",
-    "type": "nosqlDB"
+    "type": "NoSQL"
   },
   {
     "name": "cassandra",
     "url": "https://cassandra.apache.org/",
-    "type": "nosqlDB"
+    "type": "NoSQL"
   },
   {
     "name": "connect-rid",
@@ -155,6 +165,11 @@
     "type": "react"
   },
   {
+    "name": "React Navigation",
+    "url": "https://reactnavigation.org/",
+    "type": "React Native"
+  },
+  {
     "name": "jest",
     "url": "https://facebook.github.io/jest/",
     "type": "Testing Framework"
@@ -163,6 +178,36 @@
     "name": "mochajs",
     "url": "https://mochajs.org/",
     "type": "Testing Framework"
+  },
+  {
+    "name": "hapi-sequelize",
+    "url": "https://openbase.io/js/hapi-sequelize",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "mongoose",
+    "url": "https://openbase.io/js/mongoose",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "jugglingdb",
+    "url": "https://openbase.io/js/jugglingdb",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "bookshelf",
+    "url": "https://openbase.io/js/bookshelf",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "prisma",
+    "url": "https://openbase.io/js/@prisma/client/",
+    "type": "ORM / Query Builder"
+  },
+  {
+    "name": "typeorm",
+    "url": "https://typeorm.io/",
+    "type": "ORM / Query Builder"
   },
   {
     "name": "knexjs",
@@ -328,5 +373,191 @@
     "name": "material-ui",
     "url": "https://github.com/mui-org/material-ui",
     "type": "react"
+  },
+  {
+    "name": "strapi",
+    "url": "https://openbase.io/js/strapi",
+    "type": "CMS"
+  },
+  {
+    "name": "keystone",
+    "url": "https://github.com/keystonejs/keystone",
+    "type": "CMS"
+  },
+  {
+    "name": "javascriptWeekly",
+    "url": "https://javascriptweekly.com/issues",
+    "type": "weekly"
+  },
+  {
+    "name": "nodeWeekly",
+    "url": "https://nodeweekly.com/issues",
+    "type": "weekly"
+  },
+  {
+    "name": "react.statuscode.com",
+    "url": "https://react.statuscode.com/",
+    "type": "weekly"
+  },
+  {
+    "name": "graphqlWeekly",
+    "url": "https://www.graphqlweekly.com/",
+    "type": "weekly"
+  },
+  {
+    "name": "mongodbWeekly",
+    "url": "https://mongodb.email/issues",
+    "type": "weekly"
+  },
+  {
+    "name": "freecodecamp",
+    "url": "https://www.freecodecamp.org/news/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "javascript.info",
+    "url": "https://javascript.info/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "javascript.com",
+    "url": "https://www.javascript.com/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "MDN",
+    "url": "https://developer.mozilla.org/en-US/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "toptal",
+    "url": "https://www.toptal.com/developers/blog",
+    "type": "Tutorials"
+  },
+  {
+    "name": "tutorialzine",
+    "url": "https://tutorialzine.com/tag/nodejs",
+    "type": "Tutorials"
+  },
+
+  {
+    "name": "ibm",
+    "url": "https://developer.ibm.com/languages/node-js/articles/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "jsbooks",
+    "url": "https://jsbooks.revolunet.com/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "react ui.dev newsletters",
+    "url": "https://ui.dev/newsletters/react/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "datree.io",
+    "url": "https://www.datree.io/category/tutorials",
+    "type": "Tutorials"
+  },
+  {
+    "name": "frontend-dev-bookmarkss",
+    "url": "https://github.com/dypsilon/frontend-dev-bookmarks",
+    "type": "Tutorials"
+  },
+  {
+    "name": "awesome-javascript",
+    "url": "https://github.com/sorrycc/awesome-javascript",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome-nodejs",
+    "url": "https://github.com/sindresorhus/awesome-nodejs",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome-react",
+    "url": "https://github.com/enaqx/awesome-react",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome-graphql",
+    "url": "https://github.com/chentsulin/awesome-graphql",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome",
+    "url": "https://github.com/sindresorhus/awesome",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome-mongodb",
+    "url": "https://github.com/ramnes/awesome-mongodb",
+    "type": "awesome"
+  },
+  {
+    "name": "awesome-css",
+    "url": "https://github.com/awesome-css-group/awesome-css",
+    "type": "awesome"
+  },
+  {
+    "name": "wakatime",
+    "url": "https://wakatime.com/vs-code",
+    "type": "vscode"
+  },
+  {
+    "name": "Turbo Console Log",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log",
+    "type": "vscode"
+  },
+  {
+    "name": "Code Spell Checker",
+    "url": "https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker",
+    "type": "vscode"
+  },
+  {
+    "name": "Remote - SSH",
+    "url": "https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh",
+    "type": "vscode"
+  },
+  {
+    "name": "Wes Bos",
+    "url": "https://advancedreact.com/",
+    "type": "instructor"
+  },
+  {
+    "name": "ui.dev",
+    "url": "https://ui.dev/",
+    "type": "Tutorials"
+  },
+  {
+    "name": "codewithmosh",
+    "url": "https://codewithmosh.com/courses",
+    "type": "instructor"
+  },
+  {
+    "name": "Stephen Grider",
+    "url": "https://www.udemy.com/user/sgslo/",
+    "type": "instructor"
+  },
+  {
+    "name": "Andrei Neagoie",
+    "url": "https://zerotomastery.io/",
+    "type": "instructor"
+  },
+  {
+    "name": "Yihua Zhang",
+    "url": "https://twitter.com/slingingkeys",
+    "type": "instructor"
+  },
+  {
+    "name": "Jonas Schmedtmann",
+    "url": "https://www.udemy.com/user/jonasschmedtmann/",
+    "type": "instructor"
+  },
+  {
+    "name": "Andrew Mead",
+    "url": "https://mead.io/",
+    "type": "instructor"
   }
 ]
