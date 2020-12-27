@@ -1,21 +1,52 @@
 import { GraphQLServer } from 'graphql-yoga'
 
 const typeDefs = `
-type User{
+type Query {
+    testPassingParams(name:String):String!
+    user: User!
+    post: Post!
+  }
+
+type User {
+     id: ID!
      name: String!
      age: Int!
+     email: String
 }
-  type Query {
-    user: User!
-  }
+type Post {
+     id: ID!
+     title: String!
+     body: String!
+}
+
+
 `
 
 const resolvers = {
     Query: {
-        user: () => {
+        testPassingParams(_, { name }) {
+            console.log(
+                '🚀 ~ file: index.js ~ line 28 ~ testPassingParams ~ name',
+                name
+            )
+            console.log(
+                '🚀 ~ file: index.js ~ line 28 ~ testPassingParams ~ _',
+                _
+            )
+            return name
+        },
+        user() {
             return {
+                id: '123',
                 name: 'Moataz',
-                age: 30,
+                age: 32,
+            }
+        },
+        post() {
+            return {
+                id: '123',
+                title: 'title',
+                body: 'this is post body',
             }
         },
     },
