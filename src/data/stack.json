@@ -559,5 +559,10 @@
     "name": "Andrew Mead",
     "url": "https://mead.io/",
     "type": "instructor"
+  },
+  {
+    "name": "graphql-yoga",
+    "url": "https://github.com/prisma-labs/graphql-yoga",
+    "type": "graphql"
   }
 ]
