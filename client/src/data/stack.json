@@ -471,6 +471,11 @@
     "type": "awesome"
   },
   {
+    "name": "awesome-babel",
+    "url": "https://github.com/babel/awesome-babel",
+    "type": "awesome"
+  },
+  {
     "name": "awesome-nodejs",
     "url": "https://github.com/sindresorhus/awesome-nodejs",
     "type": "awesome"
