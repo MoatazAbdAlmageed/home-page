@@ -225,6 +225,11 @@
     "type": "Bundler"
   },
   {
+    "name": "parceljs",
+    "url": "https://parceljs.org/",
+    "type": "Bundler"
+  },
+  {
     "name": "webpack",
     "url": "https://webpack.js.org/",
     "type": "Bundler"
@@ -569,5 +574,25 @@
     "name": "graphql-yoga",
     "url": "https://github.com/prisma-labs/graphql-yoga",
     "type": "graphql"
+  },
+  {
+    "name": "devdocs",
+    "url": "https://devdocs.io/",
+    "type": "docs"
+  },
+  {
+    "name": "trello",
+    "url": "https://trello.com/",
+    "type": "tools"
+  },
+  {
+    "name": "toggl",
+    "url": "https://toggl.com/",
+    "type": "tools"
+  },
+  {
+    "name": "wakatime",
+    "url": "https://wakatime.com/dashboard",
+    "type": "tools"
   }
 ]

@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Container>
+        <a target="_blank" href="https://wakatime.com/dashboard">
+          always use wakatime
+        </a>
         <Repos />
         <Stack />
         <VSCode />
