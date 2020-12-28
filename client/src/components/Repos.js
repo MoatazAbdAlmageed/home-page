@@ -29,6 +29,9 @@ function Repos() {
                         return (
                           <>
                             <h4>{repo.name}</h4>
+                            <a target="_blank" href={`${repo.url}/pulls/`}>
+                              💪 pulls
+                            </a>{" "}
                             <a target="_blank" href={`${repo.url}/commits/`}>
                               📃 Commits
                             </a>{" "}
