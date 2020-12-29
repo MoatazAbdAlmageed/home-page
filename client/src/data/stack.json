@@ -594,5 +594,10 @@
     "name": "wakatime",
     "url": "https://wakatime.com/dashboard",
     "type": "tools"
+  },
+  {
+    "name": "travis",
+    "url": "https://travis-ci.org/",
+    "type": "cloud"
   }
 ]
