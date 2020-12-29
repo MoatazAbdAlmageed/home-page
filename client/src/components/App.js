@@ -7,15 +7,22 @@ function App() {
   return (
     <>
       <Container>
-        <a target="_blank" href="https://wakatime.com/dashboard">
-          always use wakatime
-        </a>
-        <a
-          target="_blank"
-          href="https://people.zoho.com/wuilthr/zp#home/dashboard"
-        >
-          always log time
-        </a>
+        <ul>
+          <li>
+            <a target="_blank" href="https://wakatime.com/dashboard">
+              always use wakatime
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://people.zoho.com/wuilthr/zp#home/dashboard"
+            >
+              always log time
+            </a>
+          </li>
+        </ul>
+
         <Repos />
         <Stack />
         <VSCode />
