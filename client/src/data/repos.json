@@ -15,6 +15,14 @@
       {
         "name": "wuilt-store-front",
         "url": "https://github.com/wuilt/wuilt-store-front"
+      },
+      {
+        "name": "pipedrive-connect-store-domain",
+        "url": "https://github.com/wuilt/pipedrive-connect-store-domain"
+      },
+      {
+        "name": "store-early-access-pipedrive",
+        "url": "https://github.com/wuilt/store-early-access-pipedrive"
       }
     ]
   },

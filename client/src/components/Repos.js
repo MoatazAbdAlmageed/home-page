@@ -28,7 +28,11 @@ function Repos() {
                       {project.repos.map((repo) => {
                         return (
                           <>
-                            <h4>{repo.name}</h4>
+                            <h4>
+                              <a target="_blank" href={`${repo.url}`}>
+                                {repo.name}
+                              </a>
+                            </h4>
                             <a target="_blank" href={`${repo.url}/pulls/`}>
                               💪 pulls
                             </a>{" "}
