@@ -38,9 +38,22 @@
       {
         "name": "wuilt-frontend",
         "url": "https://github.com/wuilt/wuilt-frontend"
+      },
+      {
+        "name": "wuilt-public-router",
+        "url": "https://github.com/wuilt/wuilt-public-router"
+      },
+      {
+        "name": "wuilt-section-elements",
+        "url": "https://github.com/wuilt/wuilt-section-elements"
+      },
+      {
+        "name": "section-designs",
+        "url": "https://github.com/wuilt/section-designs"
       }
     ]
   },
+
   {
     "name": "BackOffice",
     "alpha": "",
@@ -53,6 +66,17 @@
       {
         "name": "backoffice-front",
         "url": "https://github.com/wuilt/backoffice-front"
+      }
+    ]
+  },
+  {
+    "name": "wuilt Site",
+    "alpha": "",
+    "production": "https://wuilt.com/",
+    "repos": [
+      {
+        "name": "wuilt",
+        "url": "https://github.com/wuilt/wuilt"
       }
     ]
   }

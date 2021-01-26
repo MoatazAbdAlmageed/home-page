@@ -12,7 +12,9 @@ function Repos() {
             <>
               <Card>
                 <Card.Body>
-                  <Card.Title>{project.name}</Card.Title>
+                  <Card.Title>
+                    <h2>{project.name}</h2>
+                  </Card.Title>
                   <Card.Text>
                     {project.alpha && (
                       <a target="_blank" href={`${project.alpha}`}>
